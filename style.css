@@ -5,8 +5,8 @@ body{
 .section-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 5%;
+    padding: 50px 100px ;
+    margin-bottom: 100px;
 }
 h1{
     font-size: 60px;
@@ -56,11 +56,11 @@ p{
     text-align: center;
 }
 .single-mission{
-    padding:30px 20px;
-    margin: 5%;
+    padding: 30px 20px;
+    margin: 15px;
     height: 400px;
     border-radius: 30px;
-    width: 33%;
+    width: 100%;
 }
 .single-mission p{
     padding-right: 20px;
