@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    font-family: 'PT Serif', serif;
+}
+.section-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+h1{
+    font-size: 60px;
+    margin:0;
+}
+h1 span{
+    color:lightpink
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size:30px;
+    margin-top: 0;
+}
+p{
+    font-size:18px;
+    margin: 30px 0px;
+    padding-bottom:10px;
+}
+.single-focus {
+    width: 50%;
+}
+.single-focus h1{
+    color:black;
+    border-left: 4px solid tomato;
+    padding-left:20px;
+    margin: 0;
+}
+.single-focus img{
+    width:80%;
+    padding-left: 5%;
+}
+.common-button-style{
+    text-decoration: none;
+    padding:15px 25px;
+    background-image: linear-gradient(rgb(255, 94, 0), rgba(255, 99, 71, 0.658));
+    color:#fff;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size:16px;
+}
+
+/* Mission Area CSS */
+.mission-area h1{
+    text-align: center;
+}
+.single-mission{
+    padding:30px 20px;
+    margin: 5%;
+    height: 400px;
+    border-radius: 30px;
+    width: 33%;
+}
+.single-mission p{
+    padding-right: 20px;
+}
+.single-mission img{
+    width:50%;
+}
+#mission{
+    background-color: blanchedalmond
+}
+#vision{
+    background-color: coral;
+}
+#goal{
+    background-color:cornflowerblue
+}
+
+/* Develop area css */
+.develop-area{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: left center;
+}
+.single-develop-area{
+    width: 50%;
+}
+.single-develop-area img{
+    width: 80%;
+}
+
+/* community area css */
+.community-area{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: right bottom; 
+}
+.single-community-area {
+    width:50%;
+}
+.single-community-area img{
+    width:80%;
+    padding-left: 10%;
+}
+
+/* App area CSS */
+.app-area h1{
+    text-align: center;
+}
+.single-app-area{
+    width: 50%;
+}
+.single-app-area img{
+    width:100%
+}
+
+/* Footer area css */
+
+footer{
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #000;
+}
+footer h1{
+    color:#fff;
+}
+
+footer p{
+    color:lightslategray;
+}
