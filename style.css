@@ -13,11 +13,14 @@ h1{
     margin:0;
 }
 h1 span{
-    color:lightpink
+    color:rgb(135, 206, 250);
 }
 h2{
     font-size: 50px;
     margin-top:0;
+}
+h2 span{
+    color:rgb(135, 206, 250);
 }
 h3{
     font-size:30px;
@@ -36,6 +39,8 @@ p{
     border-left: 4px solid tomato;
     padding-left:20px;
     margin: 0;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
 }
 .single-focus img{
     width:80%;
@@ -44,7 +49,7 @@ p{
 .common-button-style{
     text-decoration: none;
     padding:15px 25px;
-    background-image: linear-gradient(rgb(255, 94, 0), rgba(255, 99, 71, 0.658));
+    background-image: linear-gradient(rgb(135, 206, 250), rgb(65, 105, 225));
     color:#fff;
     border-radius: 5px;
     font-weight: 700;
@@ -70,13 +75,13 @@ p{
     width:50%;
 }
 #mission{
-    background-color: blanchedalmond
+    background-color: rgba(155, 201, 179, 0.226)
 }
 #vision{
-    background-color: coral;
+    background-color: rgba(255, 127, 80, 0.219);
 }
 #goal{
-    background-color:cornflowerblue
+    background-color:rgba(129, 184, 197, 0.137)
 }
 
 /* Develop area css */
