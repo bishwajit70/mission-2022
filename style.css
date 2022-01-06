@@ -126,9 +126,8 @@ li{
 .single-price{
     width: 100%;
     text-align: center;
-    border: 2px solid #ddd;
     border-radius: 10px;
-    margin: 20px;
+    margin: 40px;
     background-color: rgba(155, 201, 179, 0.226);
     box-shadow: 10px 10px 40px #ddd;
 }
